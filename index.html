@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skyrek</title>
+    <title>Skyrek Store</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
-    <h1>Skyrek Store</h1>
-    <span>Store</span>
-    <script src="index.js"></script>
+    <div class="container">
+        <header>
+            <h1>Skyrek Movie Finder</h1>
+        </header>
+        <main>
+            <div class="search-bar">
+                <input type="text" id="input" placeholder="Enter movie title...">
+                <button onclick="search()">Search</button>
+            </div>
+            <div class="movie-details">
+                <h2 id="title">Movie Title</h2>
+                <p id="year">Year: <span>Unknown</span></p>
+                <img id="poster" src="placeholder.png" alt="Movie Poster">
+            </div>
+        </main>
+        <footer>
+            <p>© 2024 Skyrek Store. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
