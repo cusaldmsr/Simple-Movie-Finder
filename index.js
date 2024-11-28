@@ -26,3 +26,6 @@ let student =
 }
 
 console.log(student.name);
+
+student.name= "Bob";
+console.log(student.name);
