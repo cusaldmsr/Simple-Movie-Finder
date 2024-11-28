@@ -22,8 +22,14 @@ let student =
         city:"New York",
         state:"NY",
         zip:"10001"
+        },
+    parent:{
+        name:"Jane",
+        age:45,
+        occupation:"Teacher"
         }
-}
+    }
+
 
 console.log(student.name);
 
