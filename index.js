@@ -8,6 +8,21 @@
 // }
 
 
-for(let i=0; i<10; i++){
-    console.log(i);
+// for(let i=0; i<10; i++){
+//     console.log(i);
+// }
+
+let student =
+{
+    name:"John",
+    age:20,
+    gender:"male",
+    address:{
+        street:"123 Main St",
+        city:"New York",
+        state:"NY",
+        zip:"10001"
+        }
 }
+
+console.log(student.name);
