@@ -10,7 +10,7 @@ function search() {
 
     // Initialize HTTP request
     let htmlRequest = new XMLHttpRequest();
-    let url = "http://www.omdbapi.com/?apikey=f954ef38&t=" + encodeURIComponent(movieName);
+    let url = "https://www.omdbapi.com/?apikey=f954ef38&t=" + encodeURIComponent(movieName);
 
     htmlRequest.open("GET", url);
     htmlRequest.responseType = "json";
