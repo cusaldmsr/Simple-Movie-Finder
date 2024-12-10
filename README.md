@@ -1,6 +1,13 @@
 <h1 align="center">Simple Web Page for Find A Movie</h1>
 
 <p align="center">I create a simple movie finder web page using OMDB API</p>
+<p align="center">
+        <img src="https://img.shields.io/github/created-at/cusaldmsr/Simple-Movie-Finder"/>
+        <img src="https://img.shields.io/github/commit-activity/m/cusaldmsr/Simple-Movie-Finder"/>
+        <img src="https://img.shields.io/github/forks/cusaldmsr/Simple-Movie-Finder"/>
+        <img src="https://img.shields.io/github/stars/cusaldmsr/Simple-Movie-Finder"/>
+        <img src="https://img.shields.io/github/watchers/cusaldmsr/Simple-Movie-Finder"/>
+</p>
 
 <br>
 <br>
